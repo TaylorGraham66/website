@@ -3,7 +3,6 @@
 
 
 ## Goals
----
 
 1. Make a website to showcase my:
     - Skills
@@ -15,5 +14,4 @@
 3. Refine my web development skills
 
 ## Tech Stack
----
 - Node.js
