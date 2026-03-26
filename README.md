@@ -1,7 +1,6 @@
 # Portfolio Website
----
-
 **By Taylor Graham**
+
 
 ## Goals
 ---
