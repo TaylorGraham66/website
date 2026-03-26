@@ -25,17 +25,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-div {
-  height: 100vh;
-}
-
-.main-desc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-img {
-  height: 45vh;
-  width: 30vh;
-}
