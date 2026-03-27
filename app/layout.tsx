@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Website",
+  title: "Taylor Graham",
   description: "Node.js stuff",
 };
 
