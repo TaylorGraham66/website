@@ -55,8 +55,7 @@ export default function Home() {
                 Projects
               </h2>
               <p className="text-gray-300 flex-grow">
-                Security tools, automation scripts, and development projects
-                demonstrating practical cybersecurity skills.
+                TBA
               </p>
               <span className="text-sm text-purple-300 mt-4 group-hover:underline">
                 Explore projects →
@@ -69,8 +68,7 @@ export default function Home() {
                 Skills
               </h2>
               <p className="text-gray-300 flex-grow">
-                Splunk, OSINT investigations, Python automation,
-                SIEM analysis, and full-stack development.
+                TBA
               </p>
               <span className="text-sm text-green-300 mt-4 group-hover:underline">
                 View skills →
