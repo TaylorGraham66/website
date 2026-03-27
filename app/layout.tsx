@@ -27,6 +27,16 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
+
+        <div className="fixed inset-0 -z-10 overflow-hidden bg-slate-950">
+
+          <div className="aurora-layer aurora-1"></div>
+          <div className="aurora-layer aurora-2"></div>
+          <div className="aurora-layer aurora-3"></div>
+          <div className="absolute inset-0 opacity-20 bg-[url('/noise.png')]"></div>
+          
+        </div>
+
         {children}
       </body>
     </html>
