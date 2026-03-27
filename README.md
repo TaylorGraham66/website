@@ -15,3 +15,9 @@
 
 ## Tech Stack
 - Node.js
+
+
+## Notes
+
+- Make Experiences like a timeline
+- Implement both Projects & Skills page
