@@ -48,7 +48,7 @@ export default function Experience() {
         <div className="max-w-3xl w-full bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-8 shadow-lg">
           <div className="flex justify-between mb-4">
             <h1 className="text-3xl font-bold">
-              SSL Team Lead
+              Project Lead
             </h1>
             <h2 className="text-lg text-gray-300">
               April 2025 - Present
