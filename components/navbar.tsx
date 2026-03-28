@@ -12,20 +12,17 @@ export default function Navbar() {
 
       <div className="flex items-center justify-between px-6 md:px-10 py-4">
 
-        <div className="text-xl md:text-2xl font-semibold tracking-wide">
-          Taylor Graham
+        <div className="hover:text-taupe-50 text-xl md:text-3xl font-semibold tracking-wide">
+          <Link href="/">
+            Taylor.
+          </Link>
         </div>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 text-lg">
-
-          <Link className="hover:text-taupe-50 transition-colors duration-200" href="/">
-            Home
-          </Link>
 
           <div className="relative group">
             <Link
-              className="text-cyan-300 hover:text-cyan-200 transition-colors duration-200"
+              className="text-orange-300 hover:text-orange-200 transition-colors duration-200"
               href="/experience"
             >
               Experience
@@ -34,15 +31,15 @@ export default function Navbar() {
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-2 hidden group-hover:block">
               <div className="flex flex-col bg-slate-900/80 backdrop-blur-md border border-white/10 rounded-lg text-sm min-w-[120px] shadow-lg">
 
-                <Link href="/experience#soc" className="px-4 py-2 hover:text-cyan-300 transition">
+                <Link href="/experience#soc" className="px-4 py-2 hover:text-orange-300 transition">
                   SOC Analyst
                 </Link>
 
-                <Link href="/experience#research" className="px-4 py-2 hover:text-cyan-300 transition">
+                <Link href="/experience#research" className="px-4 py-2 hover:text-orange-300 transition">
                   Research
                 </Link>
 
-                <Link href="/experience#ssl" className="px-4 py-2 hover:text-cyan-300 transition">
+                <Link href="/experience#ssl" className="px-4 py-2 hover:text-orange-300 transition">
                   SSL
                 </Link>
 
@@ -50,26 +47,21 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link className="text-purple-300 hover:text-purple-200 transition-colors duration-200" href="/projects">
+          <Link className="text-red-300 hover:text-red-200 transition-colors duration-200" href="/projects">
             Projects
           </Link>
 
-          <Link className="text-green-300 hover:text-green-200 transition-colors duration-200" href="/skills">
+          <Link className="text-amber-300 hover:text-amber-200 transition-colors duration-200" href="/skills">
             Skills
           </Link>
 
         </div>
 
-        {/* Hamburger Button */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-2xl"
-        >
+        <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-2xl">
           ☰
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden flex flex-col gap-2 px-6 pb-4">
 
@@ -77,10 +69,7 @@ export default function Navbar() {
             Home
           </Link>
 
-          <button
-            onClick={() => setExpOpen(!expOpen)}
-            className="text-left py-2 text-cyan-300"
-          >
+          <button onClick={() => setExpOpen(!expOpen)} className="text-left py-2 text-orange-300">
             Experience
           </button>
 
@@ -102,11 +91,11 @@ export default function Navbar() {
             </div>
           )}
 
-          <Link href="/projects" className="py-2 text-purple-300">
+          <Link href="/projects" className="py-2 text-red-300">
             Projects
           </Link>
 
-          <Link href="/skills" className="py-2 text-green-300">
+          <Link href="/skills" className="py-2 text-amber-300">
             Skills
           </Link>
 

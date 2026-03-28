@@ -10,7 +10,7 @@ export default function Home() {
         <section className="flex flex-col lg:flex-row items-center justify-between gap-10">
 
           <div className="max-w-xl text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
+            <h1 className="name-gradient text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
               Taylor Graham
             </h1>
 
@@ -21,23 +21,22 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center">
-            <Image
-              src="/images/IMG_7580.jpg"
-              width={260}
-              height={340}
-              alt="Profile"
-              className="w-40 md:w-52 lg:w-64 h-auto rounded-2xl shadow-xl border border-white/10"
-            />
-          </div>
-
+<div className="flex justify-center mr-[150px]">
+  <Image
+    src="/images/IMG_7580.jpg"
+    width={260}
+    height={260}
+    alt="Profile"
+    className="w-40 md:w-52 lg:w-64 h-40 md:h-52 lg:h-64 rounded-full object-cover shadow-xl [mask-image:radial-gradient(circle,black_60%,transparent_100%)] [object-position:60%_top]"
+  />
+</div>
         </section>
 
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
           <Link href="/experience" className="h-full">
-            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-cyan-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
-              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-cyan-300">
+            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-orange-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
+              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-orange-300">
                 Experience
               </h2>
 
@@ -46,15 +45,15 @@ export default function Home() {
                 building SIEM queries, and supporting incident response.
               </p>
 
-              <span className="text-sm text-cyan-300 mt-4 group-hover:underline">
+              <span className="text-sm text-orange-300 mt-4 group-hover:underline">
                 View full experience →
               </span>
             </div>
           </Link>
 
           <Link href="/projects" className="h-full">
-            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-purple-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
-              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-purple-300">
+            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-red-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
+              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-red-300">
                 Projects
               </h2>
 
@@ -62,15 +61,15 @@ export default function Home() {
                 TBA
               </p>
 
-              <span className="text-sm text-purple-300 mt-4 group-hover:underline">
+              <span className="text-sm text-red-300 mt-4 group-hover:underline">
                 Explore projects →
               </span>
             </div>
           </Link>
 
           <Link href="/skills" className="h-full">
-            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-green-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
-              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-green-300">
+            <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-amber-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
+              <h2 className="text-xl md:text-2xl font-semibold mb-3 text-amber-300">
                 Skills
               </h2>
 
@@ -78,7 +77,7 @@ export default function Home() {
                 TBA
               </p>
 
-              <span className="text-sm text-green-300 mt-4 group-hover:underline">
+              <span className="text-sm text-amber-300 mt-4 group-hover:underline">
                 View skills →
               </span>
             </div>
