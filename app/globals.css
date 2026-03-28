@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fff7ed;
   --foreground: #171717;
 }
 
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1a1008;
     --foreground: #ededed;
   }
 }
@@ -36,16 +36,16 @@ body {
 }
 
 .aurora-1 {
-  background: radial-gradient(circle at 30% 50%, #22c55e, transparent 60%);
+  background: radial-gradient(circle at 30% 50%, #ff6b00, transparent 60%);
 }
 
 .aurora-2 {
-  background: radial-gradient(circle at 70% 40%, #06b6d4, transparent 60%);
+  background: radial-gradient(circle at 70% 40%, #ffaa00, transparent 60%);
   animation-duration: 40s;
 }
 
 .aurora-3 {
-  background: radial-gradient(circle at 50% 70%, #a855f7, transparent 60%);
+  background: radial-gradient(circle at 50% 70%, #ff3d8f, transparent 60%);
   animation-duration: 50s;
 }
 
@@ -56,4 +56,26 @@ body {
   100% {
     transform: translate(10%, 10%) scale(1.3);
   }
+}
+
+.name-gradient {
+  background: linear-gradient(
+    90deg,
+    #f97316,
+    #fb923c,
+    #fbbf24,
+    #f97316,
+    #ea580c,
+    #f97316
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerName 10s linear infinite;
+}
+
+@keyframes shimmerName {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
 }
