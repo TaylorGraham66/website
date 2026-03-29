@@ -35,12 +35,16 @@ export default function Navbar() {
                   SOC Analyst
                 </Link>
 
+                <Link href="/experience#ssl" className="px-4 py-2 hover:text-orange-300 transition">
+                  Cyber Club
+                </Link>
+
                 <Link href="/experience#research" className="px-4 py-2 hover:text-orange-300 transition">
                   Research
                 </Link>
 
-                <Link href="/experience#ssl" className="px-4 py-2 hover:text-orange-300 transition">
-                  SSL
+                <Link href="/experience#it" className="px-4 py-2 hover:text-orange-300 transition">
+                  IT Intern
                 </Link>
 
               </div>

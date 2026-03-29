@@ -15,9 +15,12 @@ export default function Home() {
             </h1>
 
             <p className="text-base md:text-lg text-gray-300 mb-4 md:mb-6">
-              Cybersecurity student and SOC Analyst focused on threat detection,
-              incident response, and security automation. This portfolio highlights
-              my experience, projects, and technical skills.
+              Hello! I am a Cybersecurity Student at LSU focusing in Threat Detection, Analysis, and Remediation. I also am 
+              starting to gain experience in Red Teaming & Pentesting through the{" "}
+              <Link className="text-purple-400 hover:text-purple-300" href="https://www.lsu.edu/cyberclinic/index.php" target="_blank">
+                Cyber Clinic
+              </Link>{" "}
+              at LSU.
             </p>
           </div>
 
@@ -41,8 +44,7 @@ export default function Home() {
               </h2>
 
               <p className="text-gray-300 flex-grow text-sm md:text-base">
-                SOC Analyst experience triaging thousands of alerts,
-                building SIEM queries, and supporting incident response.
+                Triaging thousands of alerts, educating underclassman, and training LLM Models.
               </p>
 
               <span className="text-sm text-orange-300 mt-4 group-hover:underline">
