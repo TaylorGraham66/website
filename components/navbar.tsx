@@ -56,7 +56,7 @@ export default function Navbar() {
           </Link>
 
           <Link className="text-amber-300 hover:text-amber-200 transition-colors duration-200" href="/skills">
-            Skills
+            Skills & Tools
           </Link>
 
         </div>

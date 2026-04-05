@@ -60,7 +60,7 @@ export default function Home() {
               </h2>
 
               <p className="text-gray-300 flex-grow text-sm md:text-base">
-                TBA
+                Websites, Club Outreach, Game Development, and Python-based Authentication.
               </p>
 
               <span className="text-sm text-red-300 mt-4 group-hover:underline">
@@ -72,11 +72,11 @@ export default function Home() {
           <Link href="/skills" className="h-full">
             <div className="group h-full p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-amber-400/40 hover:bg-white/10 transition cursor-pointer flex flex-col">
               <h2 className="text-xl md:text-2xl font-semibold mb-3 text-amber-300">
-                Skills
+                Skills & Tools
               </h2>
 
               <p className="text-gray-300 flex-grow text-sm md:text-base">
-                TBA
+                CompTIA & Splunk Certifications, Pentesting & Threat Detection Tools, and Programming Languages.
               </p>
 
               <span className="text-sm text-amber-300 mt-4 group-hover:underline">
