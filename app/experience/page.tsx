@@ -15,7 +15,7 @@ export default function Experience() {
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-cyan-400 rounded-full border-4 border-slate-900"></div>
 
           <div className="ml-12 md:ml-0 md:w-1/2 md:pr-12">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg ">
 
               <div className="flex justify-between mb-3">
                 <h1 className="text-2xl font-bold">
@@ -39,29 +39,29 @@ export default function Experience() {
         </div>
 
 
-        {/* SSL Project Lead */}
+        {/* SSL Project Lead & Outreach Chair*/}
         <section id="ssl" className="scroll-mt-28 relative flex flex-col md:flex-row items-start md:items-center"></section>
         <div id="ssl" className="relative flex flex-col md:flex-row items-start md:items-center">
-
+        
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-green-400 rounded-full border-4 border-slate-900"></div>
 
           <div className="ml-12 md:ml-auto md:w-1/2 md:pl-12">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg">
-
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl">
+              
               <div className="flex justify-between mb-3">
                 <h1 className="text-2xl font-bold">
-                  Project Lead
+                  Club Project Lead & Outreach Chair
                 </h1>
                 <h2 className="text-gray-300 text-sm md:text-base">
-                  Apr 2025 – Present
+                  Feb 2025 – Present
                 </h2>
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Lead underclassmen in building individual Homelabs</li>
-                <li>Establish and lead the first Red v. Blue Cybersecurity Hackathon at LSU</li>
-                <li>Present cybersecurity concepts and develop hands-on skills with students</li>
-                <li>Collaborate with fellow officers to organize cybersecurity club activities</li>
+                <li>Collaborate with fellow club officers to plan and execute cybersecurity club meetings and activities</li>
+                <li>Facilitate active learning by leading home lab infrastructure projects and guiding underclassmen</li>
+                <li>Present cybersecurity concepts and practical skills to underclassmen to support technical learning and engagement</li>
+                <li>Communicate with external companies and individuals to foster a relationship and establish connections</li>
               </ul>
 
             </div>
@@ -105,7 +105,7 @@ export default function Experience() {
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-yellow-400 rounded-full border-4 border-slate-900"></div>
 
           <div className="ml-12 md:ml-auto md:w-1/2 md:pl-12">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl">
 
               <div className="flex justify-between mb-3">
                 <h1 className="text-2xl font-bold">
