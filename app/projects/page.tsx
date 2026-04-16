@@ -6,7 +6,7 @@ const projects = [
   {
     id: "chatroom",
     title: "Multi-Client Chatroom",
-    image: "/placeholder.jpg",
+    image: "/images/chatroom.jpg",
     bullets: [
       "Developed Python Flask backend handling routing and database logic",
       "Built responsive frontend using HTML, CSS, and JavaScript",
@@ -36,7 +36,7 @@ const projects = [
   {
     id: "javagame",
     title: "Java Video Game",
-    image: "/placeholder.jpg",
+    image: "/images/game.jpg",
     bullets: [
       "Developed a video game using the BasicGraphics Java library",
       "Implemented wave-based survival gameplay",
@@ -46,7 +46,7 @@ const projects = [
   {
     id: "securelogin",
     title: "Secure Login System",
-    image: "/placeholder.jpg",
+    image: "/images/run_through.jpg",
     bullets: [
       "Built account creation and login authentication in Python",
       "Stored hashed passwords and MFA questions",
@@ -56,7 +56,7 @@ const projects = [
   {
     id: "hackathon",
     title: "SASE Hackathon Website",
-    image: "/placeholder.jpg",
+    image: "/images/plates.jpg",
     bullets: [
       "Led a team during a two-day hackathon",
       "Built website using HTML, CSS, and JavaScript",
