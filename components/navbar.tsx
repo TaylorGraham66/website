@@ -14,7 +14,7 @@ export default function Navbar() {
 
         <div className="hover:text-taupe-50 text-xl md:text-3xl font-semibold tracking-wide">
           <Link href="/">
-            Taylor.
+            Taylor
           </Link>
         </div>
 

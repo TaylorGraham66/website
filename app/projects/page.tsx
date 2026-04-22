@@ -3,6 +3,16 @@
 import { useState, useEffect, useRef } from "react";
 
 const projects = [
+    {
+    id: "homelab",
+    title: "Cybersecurity Home Lab",
+    image: "/images/placeholder.jpg",
+    bullets: [
+      "Deployed a personal cybersecurity home lab using Proxmox for virtualization",
+      "Configured a Splunk SIEM pipeline with Universal Forwarders across all lab VMs to ingest and index logs",
+      "Simulated full attack cycles executing red-team attacks then blue team defense"
+    ]
+  },
   {
     id: "chatroom",
     title: "Multi-Client Chatroom",
