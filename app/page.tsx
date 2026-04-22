@@ -26,11 +26,11 @@ export default function Home() {
 
 <div className="flex justify-center mr-[150px]">
   <Image
-    src="/images/IMG_7580.jpg"
+    src="/images/headshot.JPG"
     width={260}
     height={260}
     alt="Profile"
-    className="w-40 md:w-52 lg:w-64 h-40 md:h-52 lg:h-64 rounded-full object-cover shadow-xl [mask-image:radial-gradient(circle,black_60%,transparent_100%)] [object-position:60%_top]"
+    className="w-40 md:w-52 lg:w-64 h-40 md:h-52 lg:h-64 rounded-full object-cover shadow-xl [mask-image:radial-gradient(circle,black_60%,transparent_100%)]"
   />
 </div>
         </section>
