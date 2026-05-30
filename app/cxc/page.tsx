@@ -11,7 +11,7 @@ export default function CxC() {
         <div className="flex flex-col gap-6">
           <div className="group p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-green-400/40 hover:bg-white/10 transition">
             <h2 className="text-xl md:text-2xl font-semibold text-green-300 mb-3">
-              Research Publication: Binge, Bot, Repeat: Unpacking the Ecosystem of Video Piracy on Telegram
+              Binge, Bot, Repeat: Unpacking the Ecosystem of Video Piracy on Telegram
             </h2>
             <p className="text-gray-300 text-sm md:text-base mb-4">
               Collaborated with other researchers to publish a paper on video piracy within Telegram.
