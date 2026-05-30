@@ -24,7 +24,7 @@ export default function Home() {
             </p>
           </div>
 
-<div className="flex justify-center mr-[150px]">
+<div className="flex justify-center md:mr-[150px]">
   <Image
     src="/images/headshot.JPG"
     width={260}
