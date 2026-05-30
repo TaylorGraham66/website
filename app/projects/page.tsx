@@ -6,7 +6,7 @@ const projects = [
     {
     id: "homelab",
     title: "Cybersecurity Home Lab",
-    image: "/images/placeholder.jpg",
+    image: "/images/prox.png",
     bullets: [
       "Deployed a personal cybersecurity home lab using Proxmox for virtualization",
       "Configured a Splunk SIEM pipeline with Universal Forwarders across all lab VMs to ingest and index logs",
