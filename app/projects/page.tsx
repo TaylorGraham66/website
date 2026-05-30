@@ -10,7 +10,7 @@ const projects = [
     bullets: [
       "Deployed a personal cybersecurity home lab using Proxmox for virtualization",
       "Configured a Splunk SIEM pipeline with Universal Forwarders across all lab VMs to ingest and index logs",
-      "Simulated full attack cycles executing red-team attacks then blue team defense"
+      "Simulated full attack cycles executing blue team log analysis following red-team simulated attacks"
     ]
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     bullets: [
       "Researched key cloud security principles",
       "Designed presentation teaching cybersecurity underclassmen",
-      "Created PicoCTF challenges for students to practice skills"
+      "Curated PicoCTF challenges for students to practice skills"
     ]
   },
   {
