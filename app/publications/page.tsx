@@ -10,9 +10,12 @@ export default function Publications() {
         </h1>
 
         <div className="group p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-purple-400/40 hover:bg-white/10 transition">
-          <h2 className="text-xl md:text-2xl font-semibold text-purple-300 mb-1">
+          <h2 className="md:text-2xl font-semibold text-purple-300 mb-1">
             Binge, Bot, Repeat: Unpacking the Ecosystem of Video Piracy on Telegram
           </h2>
+          <p className="md:text-sm font-semibold text-purple-100">
+            Sadikshya Gyawali, Jaishnoor Kaur, <span className="font-bold text-purple-300">Taylor Graham</span>, Josef Horacek, Nowshin Tabassum, Shirin Nilizadeh, Sayak Saha Roy
+          </p>
           <p className="text-gray-500 text-sm mb-3">
             arXiv — 2025
           </p>
