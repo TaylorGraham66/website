@@ -53,7 +53,7 @@ export default function Experience() {
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-cyan-400 rounded-full border-4 border-slate-900"></div>
 
           <div className="ml-12 md:ml-0 md:w-1/2 md:pr-12">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg ">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl -ml-35">
 
               <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
@@ -132,7 +132,7 @@ export default function Experience() {
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-purple-400 rounded-full border-4 border-slate-900"></div>
 
           <div className="ml-12 md:ml-0 md:w-1/2 md:pr-12">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl -ml-35">
 
               <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
