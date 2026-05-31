@@ -8,6 +8,44 @@ export default function Experience() {
         <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 h-full w-[2px] bg-white/10"></div>
 
 
+        {/* MSI Intern */}
+         <section id="msi" className="scroll-mt-28 relative flex flex-col md:flex-row items-start md:items-center"></section>
+        <div id="msi" className="relative flex flex-col md:flex-row items-start md:items-center">
+        
+          <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 bg-orange-400 rounded-full border-4 border-slate-900"></div>
+
+          <div className="ml-12 md:ml-auto md:w-1/2 md:pl-12">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl">
+              
+              <div className="flex justify-between mb-1">
+                <h1 className="text-2xl font-bold">
+                  External Incident Response Intern
+                </h1>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  May 2026 – Present
+                </h2>
+              </div>
+
+              <div className="flex justify-between mb-1">
+                <h2 className="font-semibold text-blue-300 text-md">
+                  Motorola Solutions
+                </h2>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  Chicago, IL
+                </h2>
+              </div>
+
+              <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
+                <li>Lead a project to automate the detection and removal of unauthorized Remote Monitoring and Management (RMM) tools and VPN services across company endpoints, leveraging HCL BigFix and Palo Alto Cortex XDR</li>
+                <li>Collaborate with cross-functional teams, including External Response, Detection, and GRC, to develop and implement policies, automation scripts, and detection rules that streamlined remediation workflows and supported project objectives</li>
+                <li>Investigate, triage, and resolve security incidents and endpoint alerts using Palo Alto Cortex XDR and Palo Alto Cortex XSOAR</li>
+                <li>Present the final project to fellow interns, management, and company executives, demonstrating the solution's functionality and effective use of security tools</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
         {/* SOC Analyst */}
         <section id="soc" className="scroll-mt-28 relative flex flex-col md:flex-row items-start md:items-center"></section>
         <div id="soc" className="relative flex flex-col md:flex-row items-start md:items-center">
@@ -17,7 +55,7 @@ export default function Experience() {
           <div className="ml-12 md:ml-0 md:w-1/2 md:pr-12">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg ">
 
-              <div className="flex justify-between mb-3">
+              <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
                   Tier 2 SOC Analyst
                 </h1>
@@ -26,8 +64,17 @@ export default function Experience() {
                 </h2>
               </div>
 
+              <div className="flex justify-between mb-1">
+                <h2 className="font-semibold text-purple-300 text-md">
+                  Louisiana State University
+                </h2>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  Baton Rouge, LA
+                </h2>
+              </div>
+
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Analyzed and triaged over 3,000 security events across 29 tenants leveraging Splunk ES and Splunk SOAR</li>
+                <li>Analyze and triage 3,000+ security events across 29 clients leveraging Splunk ES and Splunk SOAR</li>
                 <li>Escalate to and communicate with clients performing remediation as necessary</li>
                 <li>Design dashboards and custom search queries utilizing SPL to support in-depth event analysis</li>
                 <li>Validate Tier 1 Analyst escalations and perform quality assurance review</li>
@@ -48,12 +95,21 @@ export default function Experience() {
           <div className="ml-12 md:ml-auto md:w-1/2 md:pl-12">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl">
               
-              <div className="flex justify-between mb-3">
+              <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
                   Club Project Lead & Outreach Chair
                 </h1>
                 <h2 className="text-gray-300 text-sm md:text-base">
                   Feb 2025 – Present
+                </h2>
+              </div>
+
+              <div className="flex justify-between mb-1">
+                <h2 className="font-semibold text-purple-300 text-md">
+                  Security Society at LSU
+                </h2>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  Baton Rouge, LA
                 </h2>
               </div>
 
@@ -78,12 +134,21 @@ export default function Experience() {
           <div className="ml-12 md:ml-0 md:w-1/2 md:pr-12">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg">
 
-              <div className="flex justify-between mb-3">
+              <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
                   Research Assistant
                 </h1>
                 <h2 className="text-gray-300 text-sm md:text-base">
                   Sep 2025 – Present
+                </h2>
+              </div>
+
+              <div className="flex justify-between mb-1">
+                <h2 className="font-semibold text-purple-300 text-md">
+                  Louisiana State University
+                </h2>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  Baton Rouge, LA
                 </h2>
               </div>
 
@@ -107,12 +172,21 @@ export default function Experience() {
           <div className="ml-12 md:ml-auto md:w-1/2 md:pl-12">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-lg w-2xl">
 
-              <div className="flex justify-between mb-3">
+              <div className="flex justify-between mb-1">
                 <h1 className="text-2xl font-bold">
                   IT Intern
                 </h1>
                 <h2 className="text-gray-300 text-sm md:text-base">
                   February 2024 – August 2024
+                </h2>
+              </div>
+
+              <div className="flex justify-between mb-1">
+                <h2 className="font-semibold text-blue-400 text-md">
+                  VeraPro
+                </h2>
+                <h2 className="text-gray-300 text-sm md:text-base">
+                  Sorrento, LA
                 </h2>
               </div>
                 
