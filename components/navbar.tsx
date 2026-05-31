@@ -47,7 +47,7 @@ href="/experience"
 <Link className="text-red-300 hover:text-red-200 transition-colors duration-200" href="/projects">Projects</Link>
 <Link className="text-amber-300 hover:text-amber-200 transition-colors duration-200" href="/skills">Skills & Tools</Link>
 <Link className="text-green-300 hover:text-green-200 transition-colors duration-200" href="/cxc">CxC</Link>
-<Link className="text-blue-300 hover:text-blue-200 transition-colors duration-200" href="/publications">Publications</Link>
+<Link className="text-purple-300 hover:text-purple-200 transition-colors duration-200" href="/publications">Publications</Link>
 </div>
 <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-2xl">☰</button>
 </div>
@@ -67,7 +67,7 @@ href="/experience"
 <Link href="/projects" className="py-2 text-red-300">Projects</Link>
 <Link href="/skills" className="py-2 text-amber-300">Skills</Link>
 <Link href="/cxc" className="py-2 text-green-300">CxC</Link>
-<Link href="/publications" className="py-2 text-blue-300">Publications</Link>
+<Link href="/publications" className="py-2 text-purple-300">Publications</Link>
 </div>
       )}
 </nav>
