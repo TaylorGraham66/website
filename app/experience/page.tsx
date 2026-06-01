@@ -36,10 +36,10 @@ export default function Experience() {
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Lead a project to automate the detection and removal of unauthorized Remote Monitoring and Management (RMM) tools and VPN services across company endpoints, leveraging HCL BigFix and Palo Alto Cortex XDR</li>
-                <li>Collaborate with cross-functional teams, including External Response, Detection, and GRC, to develop and implement policies, automation scripts, and detection rules that streamlined remediation workflows and supported project objectives</li>
-                <li>Investigate, triage, and resolve security incidents and endpoint alerts using Palo Alto Cortex XDR and Palo Alto Cortex XSOAR</li>
-                <li>Present the final project to fellow interns, management, and company executives, demonstrating the solution's functionality and effective use of security tools</li>
+                <li>Led a project leveraging HCL BigFix and Palo Alto Cortex XDR to automate the detection and removal of unauthorized Remote Monitoring and Management (RMM) tools and VPN services across company endpoints</li>
+                <li>Collaborated with cross-functional teams to determine correct policies, allowed software, and detection rules </li>
+                <li>Investigate and resolve security incidents and endpoint alerts using Palo Alto Cortex XDR and Palo Alto Cortex XSOAR</li>
+                <li>Present the final project to fellow interns, management, and company executives</li>
               </ul>
 
             </div>

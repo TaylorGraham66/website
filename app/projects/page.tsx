@@ -9,8 +9,7 @@ const projects = [
     image: "/images/prox.png",
     bullets: [
       "Deployed a personal cybersecurity home lab using Proxmox for virtualization",
-      "Configured a Splunk SIEM pipeline with Universal Forwarders across all lab VMs to ingest and index logs",
-      "Simulated full attack cycles executing blue team log analysis following red-team simulated attacks"
+      "Configured a Tailscale server as a layer 3 switch allowing for secure remote access to lab infrastructure"
     ]
   },
   {
@@ -170,7 +169,7 @@ export default function Projects() {
         <section
           key={project.id}
           id={project.id}
-          className="min-h-screen flex items-center px-12"
+          className="min-h-[75vh] flex items-center px-12"
         >
 
           <div className="grid md:grid-cols-2 gap-12 w-full max-w-7xl mx-auto">
