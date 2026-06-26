@@ -36,10 +36,9 @@ export default function Experience() {
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Led a project leveraging HCL BigFix and Palo Alto Cortex XDR to automate the detection and removal of unauthorized Remote Monitoring and Management (RMM) tools and VPN services across company endpoints</li>
-                <li>Collaborated with cross-functional teams to determine correct policies, allowed software, and detection rules </li>
-                <li>Investigate and resolve security incidents and endpoint alerts using Palo Alto Cortex XDR and Palo Alto Cortex XSOAR</li>
-                <li>Present the final project to fellow interns, management, and company executives</li>
+                <li>Utilized <strong>Cortex XDR</strong>, <strong>ServiceNow</strong>, and <strong>HCL BigFix</strong> to remove unauthorized Remote Monitoring and Management tools across an enterprise-wide environment</li>
+                <li>Investigated and resolved security incidents using <strong>Cortex XDR</strong>, <strong>XSOAR</strong>, and <strong>Splunk ES</strong></li>
+                <li>Performed threat hunting in <strong>Splunk ES</strong> and <strong>Cortex XDR</strong> to find malicious activity during active incident response</li>
               </ul>
 
             </div>
@@ -74,9 +73,9 @@ export default function Experience() {
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Analyze and triage 3,000+ security events across 29 clients leveraging Splunk ES and Splunk SOAR</li>
+                <li>Analyze and triage 3,000+ security events across 29 clients leveraging <strong>Splunk ES</strong> and <strong>Splunk SOAR</strong></li>
                 <li>Escalate to and communicate with clients performing remediation as necessary</li>
-                <li>Design dashboards and custom search queries utilizing SPL to support in-depth event analysis</li>
+                <li>Design dashboards and custom search queries utilizing <strong>SPL</strong> to support in-depth event analysis</li>
                 <li>Validate Tier 1 Analyst escalations and perform quality assurance review</li>
                 <li>Support training and onboarding of new analysts</li>
               </ul>
@@ -153,9 +152,9 @@ export default function Experience() {
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Partner with researchers to train, evaluate, and refine LLM models</li>
-                <li>Perform structured OSINT collection to gather real-world examples</li>
-                <li>Create datasets to train LLM-based agents detecting malicious activity</li>
+                <li>Partner with researchers to train, evaluate, and refine <strong>LLM</strong> models</li>
+                <li>Perform structured <strong>OSINT</strong> collection to gather real-world examples</li>
+                <li>Create datasets to train <strong>LLM</strong>-based agents detecting malicious activity</li>
               </ul>
 
             </div>
@@ -191,7 +190,7 @@ export default function Experience() {
               </div>
                 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Enlisted for a project to image 12,000 Lenovo devices using hard keys to prepare for the upcoming school year</li>
+                <li>Enlisted for a project to image 12,000 <strong>Lenovo</strong> devices using hard keys to prepare for the upcoming school year</li>
                 <li>Performed various hardware repairs of student devices to improve device lifecycle</li>
                 <li>Fixed diverse software, account, and permission issues improving student and staff productivity</li>
               </ul>
