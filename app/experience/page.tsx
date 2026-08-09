@@ -36,9 +36,10 @@ export default function Experience() {
               </div>
 
               <ul className="list-disc pl-6 space-y-2 text-gray-200 text-sm md:text-base">
-                <li>Utilized <strong>Cortex XDR</strong>, <strong>ServiceNow</strong>, and <strong>HCL BigFix</strong> to remove unauthorized Remote Monitoring and Management tools across an enterprise-wide environment</li>
-                <li>Investigated and resolved security incidents using <strong>Cortex XDR</strong>, <strong>XSOAR</strong>, and <strong>Splunk ES</strong></li>
-                <li>Performed threat hunting in <strong>Splunk ES</strong> and <strong>Cortex XDR</strong> to find malicious activity during active incident response</li>
+                <li>Performed active incident response within production infrastructure utilizing enterprise tools</li>
+                <li>Led a project to remove unapproved software across an enterprise-wide environment, coordinating cross-functional teams to minimize the living-off-the-land threat vector </li>
+                <li>Presented the project to senior leadership, management, and other interns showcasing the process and results</li>
+                <li>Investigated and resolved security incidents originating from an EDR and SOC escalations </li>
               </ul>
 
             </div>
