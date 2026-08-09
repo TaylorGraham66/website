@@ -17,8 +17,6 @@ export default function Skills() {
       skills: [
         "Splunk Enterprise Security",
         "Splunk SOAR",
-        "Palo Alto XDR",
-        "Palo Alto XSOAR",
         "Wireshark",
         "Nmap",
       ],
@@ -42,6 +40,7 @@ export default function Skills() {
         "SPL",
         "Java",
         "Python",
+        "Powershell",
       ],
     },
   ];
